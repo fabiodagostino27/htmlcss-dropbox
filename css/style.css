@@ -202,6 +202,41 @@ hr {
     gap: 30px;
 }
 
+/*Partner-section*/
+.partner-section {
+    margin: 8%;
+    justify-content: space-between;
+}
+
+.partner-section figure {
+    flex-basis: 58%;
+}
+
+.partner-section img {
+    width: 100%;
+}
+
+.partner-section div {
+    padding: 5%;
+    flex-basis: 40%;
+    flex-direction: column;
+    line-height: 160%;
+    gap: 20px;
+}
+
+.partner-section button {
+    background-color: white;
+    width: 40%;
+    padding-block: 3%;
+    border-color: gray;
+    color: black;
+}
+
+.partner-section button:hover {
+    background-color: whitesmoke;
+}
+
+
 
 
 
