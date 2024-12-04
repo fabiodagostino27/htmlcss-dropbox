@@ -125,10 +125,14 @@ main .business-plan-section h2 {
 main .business-plans {
     margin-top: 3%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 main .business-plan {
     flex-basis: 30%;
+}
+
+.business-plan, #business-plan4 {
     border: 1px solid rgba(172, 168, 168, 0.493);
 }
 
@@ -138,15 +142,22 @@ main .business-plan-top {
     padding-block: 10px;
 }
 
-.business-plans .business-plan-bottom {
+.business-plans .business-plan-bottom{
     padding: 30px 20px;
     font-size: 15px;
     gap: 30px;
+}
+
+.business-plan .business-plan-bottom {
     flex-direction: column;
 }
 
-.business-plans .business-plan-bottom h3 {
+.business-plan-bottom h3 {
     font-size: 25px;
+}
+
+.business-plan-bottom .details {
+    flex-basis: 150px;
 }
 
 .business-plan-bottom .price, .business-plan-bottom .details, .business-plan-bottom .details2 {
@@ -163,12 +174,32 @@ main .business-plan-top {
     color: blue;
 }
 
+.business-plan-bottom i {
+    margin-right: 1%;
+}
+
 hr {
     width: 20%;
 }
 
 .business-plan-bottom .details2 i {
     color: var(--color1);
+}
+
+#business-plan4 {
+    flex-basis: 100%;
+    margin-top: 3%;
+
+}
+
+#business-plan4 .business-plan-bottom {
+    justify-content: space-between;
+}
+
+#business-plan4 .business-plan-bottom .flex-left {
+    flex-basis: 70%;
+    flex-direction: column;
+    gap: 30px;
 }
 
 
