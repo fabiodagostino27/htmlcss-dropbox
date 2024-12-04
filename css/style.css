@@ -5,6 +5,7 @@ html {
 :root {
     --color1: #0061FE;
     --color2: #081653;
+    --color3: #B4D0E6;
 }
 
 .flex {
@@ -16,6 +17,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: white;
 }
 
 header nav {
@@ -39,6 +41,7 @@ header ul {
 header ul li {
     padding-block: 25px;
     height: 100%;
+    border: 3px solid transparent;
 }
 
 header nav ul li:hover {
@@ -54,6 +57,8 @@ header div button {
 }
 
 .btn-blue {
+    border: none;
+    padding: 10px 20px;
     color: white;
     background-color: var(--color1);
 }
@@ -62,7 +67,47 @@ header div button {
     background-color: var(--color2);
 }
 
+/*Main*/
+main .intro-section {
+    padding: 3% 20% 10px 20%;
+    background-color: var(--color3);
+}
 
+main .intro-section h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+main .intro-section > div {
+}
+
+main .intro-section .caption {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 160%;
+    gap: 10px;
+    width: 30%;
+    margin-top: 30px;
+    font-size: 1vw;
+}
+
+main .intro-section .caption i {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+main .intro-section figure {
+    position: relative;
+    padding-left: 2%;
+    width: 68%;
+}
+
+main .intro-section img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+}
 
 
 
