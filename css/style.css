@@ -68,8 +68,9 @@ header div button {
 }
 
 /*Main*/
+/*Intro section*/
 main .intro-section {
-    padding: 3% 20% 10px 20%;
+    padding: 3% 15% 10px 15%;
     background-color: var(--color3);
 }
 
@@ -78,16 +79,13 @@ main .intro-section h1 {
     font-weight: 800;
 }
 
-main .intro-section > div {
-}
-
 main .intro-section .caption {
     flex-direction: column;
     align-items: flex-start;
     line-height: 160%;
     gap: 10px;
     width: 30%;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1vw;
 }
 
@@ -98,16 +96,83 @@ main .intro-section .caption i {
 
 main .intro-section figure {
     position: relative;
-    padding-left: 2%;
-    width: 68%;
+    padding-left: 5%;
+    width: 65%;
 }
 
 main .intro-section img {
     width: 100%;
     position: absolute;
-    z-index: 1;
-    top: 30px;
+    top: 20px;
 }
+
+main > section:not(.intro-section) {
+    width: 60%;
+    margin-inline: auto;
+}
+
+
+/*Business plan section*/
+main .business-plan-section {
+    margin-top: 10%;
+}
+
+main .business-plan-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+main .business-plans {
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+main .business-plan {
+    flex-basis: 30%;
+    border: 1px solid rgba(172, 168, 168, 0.493);
+}
+
+main .business-plan-top {
+    text-align: center;
+    border-bottom: 1px solid rgba(172, 168, 168, 0.493);
+    padding-block: 10px;
+}
+
+.business-plans .business-plan-bottom {
+    padding: 30px 20px;
+    font-size: 15px;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.business-plans .business-plan-bottom h3 {
+    font-size: 25px;
+}
+
+.business-plan-bottom .price, .business-plan-bottom .details, .business-plan-bottom .details2 {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.business-plan-bottom .price span {
+    color: gray;
+}
+
+.business-plan-bottom a {
+    text-decoration: underline;
+    color: blue;
+}
+
+hr {
+    width: 20%;
+}
+
+.business-plan-bottom .details2 i {
+    color: var(--color1);
+}
+
+
+
 
 
 
