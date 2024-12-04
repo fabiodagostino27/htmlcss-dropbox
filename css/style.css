@@ -1,3 +1,68 @@
 html {
     font-family: sans-serif;
 }
+
+:root {
+    --color1: #0061FE;
+    --color2: #081653;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Header*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header nav {
+    color: grey;
+    padding-inline: 1%;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+
+header nav > div {
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+header ul {
+    align-items: center;
+    gap: 20px;
+}
+
+header ul li {
+    padding-block: 25px;
+    height: 100%;
+}
+
+header nav ul li:hover {
+    border-bottom: 3px solid var(--color2);
+}
+
+header div button {
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: inherit;
+    font-size: inherit;
+}
+
+.btn-blue {
+    color: white;
+    background-color: var(--color1);
+}
+
+.btn-blue:hover {
+    background-color: var(--color2);
+}
+
+
+
+
+
