@@ -254,7 +254,7 @@ hr {
     flex-basis: calc(100% / 3 - 30px);
     flex-direction: column;
     gap: 20px;
-
+    line-height: 160%;
 }
 
 .dropbox-business-section img {
