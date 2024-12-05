@@ -6,6 +6,7 @@ html {
     --color1: #0061FE;
     --color2: #081653;
     --color3: #B4D0E6;
+    --color4: #000000;
 }
 
 .flex {
@@ -267,7 +268,39 @@ hr {
     display: inline-block;
 }
 
+/*Footer*/
+footer {
+    background-color: #000000;
+    color: gainsboro;
+}
 
+footer > div {
+    width: 60%;
+    margin: auto;
+}
+
+footer .footer-container {
+    padding-block: 8%;
+    justify-content: space-between;
+}
+
+footer .footer-container h3 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer .footer-container li {
+    margin-top: 15px;
+}
+
+footer hr {
+    border-color: gainsboro;
+    width: 10%;
+}
+
+footer > div div:last-child {
+    padding-block: 30px;
+}
 
 
 
